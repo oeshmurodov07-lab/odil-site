@@ -3,63 +3,186 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Odilbek | Shaxsiy Sayt</title>
+<title>Odilbek | Developer</title>
 
 <style>
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ font-family:Arial,sans-serif;
+}
+
 body{
-margin:0;
-font-family:Arial,sans-serif;
-background:#0f172a;
-color:white;
-text-align:center;
+ background:#0f172a;
+ color:white;
 }
-header{
-background:#2563eb;
-padding:20px;
+
+.container{
+ max-width:900px;
+ margin:auto;
+ padding:30px 20px;
 }
-section{
-padding:50px 20px;
+
+.card{
+ background:#1e293b;
+ padding:30px;
+ margin:20px 0;
+ border-radius:20px;
+ box-shadow:0 10px 25px rgba(0,0,0,.3);
 }
-button{
-padding:12px 25px;
-font-size:18px;
-background:#2563eb;
-color:white;
-border:none;
-border-radius:10px;
-cursor:pointer;
+
+.hero{
+ text-align:center;
 }
+
+.avatar{
+ width:130px;
+ height:130px;
+ background:#38bdf8;
+ color:#0f172a;
+ border-radius:50%;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ margin:auto;
+ font-size:40px;
+ font-weight:bold;
+}
+
+h1{
+ margin-top:20px;
+ font-size:38px;
+}
+
+span{
+ color:#38bdf8;
+}
+
+h2{
+ color:#38bdf8;
+ margin-bottom:15px;
+}
+
+p{
+ color:#cbd5e1;
+ line-height:1.7;
+}
+
+.skill{
+ display:inline-block;
+ background:#334155;
+ padding:8px 15px;
+ border-radius:20px;
+ margin:5px;
+}
+
+.btn{
+ display:inline-block;
+ margin-top:20px;
+ padding:12px 30px;
+ background:#38bdf8;
+ color:#0f172a;
+ border-radius:30px;
+ text-decoration:none;
+ font-weight:bold;
+}
+
 footer{
-background:#111827;
-padding:20px;
-margin-top:40px;
+ text-align:center;
+ color:#94a3b8;
+ margin:30px;
 }
 </style>
-
 </head>
+
 <body>
 
-<header>
-<h1>Salom!</h1>
-<p>Mening birinchi veb-saytimga xush kelibsiz.</p>
-</header>
+<div class="container">
 
-<section>
-<h2>Men Odilbekman</h2>
-<p>Python va Web dasturlashni o‘rganmoqdaman.</p>
+<div class="card hero">
 
-<button onclick="salom()">Bosish</button>
-</section>
+<div class="avatar">OE</div>
+
+<h1>Eshmurodov <span>Odilbek</span></h1>
+
+<p>
+Developer | Texnik dasturchi
+</p>
+
+<a class="btn" href="#">Bog‘lanish</a>
+
+</div>
+
+
+<div class="card">
+<h2>👨‍💻 Men haqimda</h2>
+
+<p>
+Salom, men Eshmurodov Odilbekman.
+Samarqand shahrida yashayman.
+Dasturlash va zamonaviy texnologiyalarga qiziqaman.
+Kelajakda professional dasturchi bo‘lishni maqsad qilganman.
+</p>
+
+</div>
+
+
+<div class="card">
+<h2>🎓 Ta’lim</h2>
+
+<p>
+Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti 
+(TATU) Samarqand filiali akademik litseyi bitiruvchisi.
+</p>
+
+<p>
+Mutaxassislik: Texnik dasturchi
+</p>
+
+</div>
+
+
+<div class="card">
+<h2>💻 Ko‘nikmalar</h2>
+
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Python</div>
+<div class="skill">GitHub</div>
+
+</div>
+
+
+<div class="card">
+<h2>🚀 Loyihalar</h2>
+
+<p>
+• Shaxsiy portfolio sayt<br>
+• Web loyihalar<br>
+• Python dasturlar<br>
+• Yangi texnologiyalar bilan ishlash
+</p>
+
+</div>
+
+
+<div class="card">
+<h2>🎯 Maqsad</h2>
+
+<p>
+Dasturlash sohasida rivojlanish va professional IT mutaxassis bo‘lish.
+</p>
+
+</div>
+
 
 <footer>
-© 2026 Odilbek
+© 2026 Odilbek Developer
 </footer>
 
-<script>
-function salom(){
-alert("Saytimga tashrif buyurganingiz uchun rahmat!");
-}
-</script>
+</div>
 
 </body>
 </html>
